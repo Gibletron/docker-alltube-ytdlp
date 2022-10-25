@@ -68,6 +68,15 @@
           "type": "tar",
           "url": "https://yt-dl.org/downloads/2021.12.17/youtube-dl-2021.12.17.tar.gz"
         }
+      },
+      "type": "package",
+      "package": {
+        "name": "yt-dlp/yt-dlp",
+        "version": "2022.10.04",
+        "dist": {
+          "type": "tar",
+          "url": "https://github.com/yt-dlp/yt-dlp/archive/2022.10.04.tar.gz"
+        }
       }
     }
   ],
@@ -91,7 +100,7 @@
       "phpro/grumphp": true
     },
     "platform": {
-      "php": "7.3.11"
+      "php": "7.4.32"
     },
     "sort-packages": true
   },
@@ -124,6 +133,6 @@
       "tsmarty2c.php templates > i18n/template.pot",
       "xgettext --omit-header -kt -j -o i18n/template.pot classes/*.php classes/*/*.php"
     ],
-    "youtube-dl": "vendor/ytdl-org/youtube-dl/youtube_dl/__main__.py"
+    "youtube-dl": "vendor/yt-dlp/yt-dlp/yt_dlp/__main__.py"
   }
 }
